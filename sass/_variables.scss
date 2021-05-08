@@ -1,0 +1,6 @@
+$font-primary: Arial;
+
+// Mixin
+@mixin container {
+    width: clamp(500px 50% 1200px);
+}

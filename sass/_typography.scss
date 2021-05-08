@@ -1,0 +1,11 @@
+@use  "variables" as *;
+
+// Placeholder
+%title {
+    font-family: $font-primary;
+}
+
+// Extend
+.title-1 {
+    @extend %title
+}

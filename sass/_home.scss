@@ -1,0 +1,19 @@
+@use  "variables" as *;
+
+// Mixin
+.card-container {
+    @include container;
+    display: grid;
+}
+
+.card {
+
+
+    &__title {
+
+    }
+
+    &__img {
+        
+    }
+}
