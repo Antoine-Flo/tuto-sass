@@ -1,0 +1,5 @@
+
+// Mixin + Variable
+@mixin container($width) {
+    width: clamp(500px #{$width} 1200px);
+}
